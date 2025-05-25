@@ -1,0 +1,21 @@
+# Ignore virtual environment
+venv/
+#datsets too
+datasets/
+uploads/
+# Ignore compiled files
+__pycache__/
+*.pyc
+
+# Ignore large models and audio/video
+*.pth
+*.wav
+*.mp4
+*.zip
+*.dll
+*.lib
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
